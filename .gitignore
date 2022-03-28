@@ -2,17 +2,8 @@
 .idea
 .vscode
 
-# library
-node_modules/
-
 # MacOS
 .DS_Store
-
-# generated files
-dist/
-
-# generated site
-site/
 
 # coverage reports
 coverage/
