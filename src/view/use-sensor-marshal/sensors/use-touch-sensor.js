@@ -66,10 +66,11 @@ function getWindowBindings({
       fn: cancel,
     },
     // some devices fire resize if the orientation changes
-    {
-      eventName: 'resize',
-      fn: cancel,
-    },
+    // BRUNO. Commenting out to try and change the iOs 15 behaviour
+    // {
+    //   eventName: 'resize',
+    //   fn: cancel,
+    // },
     // Long press can bring up a context menu
     // need to opt out of this behavior
     {

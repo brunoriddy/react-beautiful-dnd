@@ -9658,9 +9658,6 @@
       eventName: 'orientationchange',
       fn: cancel
     }, {
-      eventName: 'resize',
-      fn: cancel
-    }, {
       eventName: 'contextmenu',
       fn: function fn(event) {
         event.preventDefault();
